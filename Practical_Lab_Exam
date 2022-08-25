@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled10.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPd8Qm/zOXiwtTCw61wYNC7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Dhaxy/DSA-58011/blob/main/Practical_Lab_Exam\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gGjtZ6UVvxc7",
+        "outputId": "83af3d41-7fac-4ce7-c161-7a528466ddc6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Odd Numbers are:  [49, 87, 75]\n",
+            "The Sum is:  211\n"
+          ]
+        }
+      ],
+      "source": [
+        "list1 = [26,49,98,87,62,75]\n",
+        "\n",
+        "only_odd = [num for num in list1 if num % 2 == 1]\n",
+        "res = sum(only_odd)\n",
+        "\n",
+        "print(\"Odd Numbers are: \",only_odd)\n",
+        "print(\"The Sum is: \", res)"
+      ]
+    }
+  ]
+}
